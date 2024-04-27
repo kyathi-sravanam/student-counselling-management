@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sdp41/static/css/main.a341c991.css",
+    "main.js": "/sdp41/static/js/main.8f3e975c.js",
+    "static/media/loginbg.jpg": "/sdp41/static/media/loginbg.0b3182e1b9c95acf68dd.jpg",
+    "static/media/closedeye.jpg": "/sdp41/static/media/closedeye.bb7c9dc3fb5f42eb3fb7.jpg",
+    "static/media/logout.png": "/sdp41/static/media/logout.ad3fd522ba2136a63785.png",
+    "static/media/adminhomecounsellor.png": "/sdp41/static/media/adminhomecounsellor.97e55345221cd4bb0570.png",
+    "static/media/logo.png": "/sdp41/static/media/logo.9f1d9fd3426523eb06ba.png",
+    "static/media/klulogo3.png": "/sdp41/static/media/klulogo3.03bd35900f0bb6ac2894.png",
+    "static/media/adminaccount.jpg": "/sdp41/static/media/adminaccount.38d20dcfe004ba1e5a99.jpg",
+    "static/media/adminhomeadmin.png": "/sdp41/static/media/adminhomeadmin.068bcf40ed83484dc4cb.png",
+    "static/media/studenthomejournal.jpg": "/sdp41/static/media/studenthomejournal.ab9570dcd3d452dca0de.jpg",
+    "static/media/adminhomestudent.jpg": "/sdp41/static/media/adminhomestudent.07a52aad6aedbcbac8e8.jpg",
+    "static/media/lock.jpg": "/sdp41/static/media/lock.4615db6b3a92e273f116.jpg",
+    "static/media/openeye.png": "/sdp41/static/media/openeye.6ababeaa59b2e16679b5.png",
+    "index.html": "/sdp41/index.html",
+    "main.a341c991.css.map": "/sdp41/static/css/main.a341c991.css.map",
+    "main.8f3e975c.js.map": "/sdp41/static/js/main.8f3e975c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a341c991.css",
+    "static/js/main.8f3e975c.js"
+  ]
+}

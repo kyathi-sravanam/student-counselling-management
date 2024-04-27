@@ -1,0 +1,281 @@
+/* Reset and General Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 9pt;
+ 
+}
+
+/* Full Height Container */
+.full-height {
+  width: 100%;
+  height: 100%;
+}
+
+/* Login Page Styles */
+.loginheader {
+  background-color: #00416A;
+  height: 55px;
+  color: #333333;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.logincontent {
+  background: url('images/loginbg.jpg');
+  height: calc(100% - 85px);
+  background-size: 100%;
+  background-position: top center;
+  
+}
+
+
+
+.loginfooter {
+  background-color: #00416A;
+  height: 30px;
+  color: black;
+  line-height: 30px;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popupwindow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+
+}
+.aboutpopupwindow {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.contactpopupwindow {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Login Styles */
+.loginstyle1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+
+.loginstyle2 {
+  position: relative;
+  height: 400px;
+  padding: 8px;
+  background: linear-gradient(to bottom, #00416A, #000000);
+}
+
+.loginstyle4 { 
+  position: relative;
+  height: 180px;
+  padding: 10px;
+  background: #ffffff;
+  font-style: italic;
+  font-size: 13px;
+}
+.loginstyle3 {
+  position: relative;
+  height: 450px;
+  padding: 10px;
+  background: #ffffff;
+  font-style: italic;
+  font-size: 13px;
+}
+
+
+
+.txtbox {
+    width: 98%;
+    height: 30px;
+    font-size: 10pt;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc; /* Light gray border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    
+    /* Color changes on focus */
+    &:focus {
+        outline: none; /* Remove default outline */
+        border-color: #4CAF50; /* Change border color on focus */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow on focus */
+    }
+    
+    /* Subtle hover effect */
+    &:hover {
+        border-color: #2196F3; /* Change border color on hover */
+    }
+
+    
+}
+
+
+.loginselect {
+  width: 105%; /* Full width */
+  height: 40px; /* Adjusted height to match input fields */
+  font-size: 10pt;
+  padding: 10px; /* Padding for better alignment */
+  border-radius: 8px;
+  border: 2px solid #ccc; /* Light gray border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  
+  /* Color changes on focus */
+  &:focus {
+      outline: none; /* Remove default outline */
+      border-color: #4CAF50; /* Change border color on focus */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow on focus */
+  }
+  
+  /* Subtle hover effect */
+  &:hover {
+      border-color: #2196F3; /* Change border color on hover */
+  }}
+
+/* Button Styles */
+.btn {
+  width: 100%;
+  height: 35px;
+  background-color: #00416A;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0a464f; /* Change to a slightly darker shade on hover */
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+.btn1 {
+  width: 5%;
+  height: 35px;
+  background-color: #00416A;
+  color: white;
+  cursor: pointer;
+  margin: auto; /* Center horizontally */
+  user-select: none;
+  border-radius: 10px; /* Circle border */
+  border: 2px solid black; /* Add a black border around the button */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for enhancement */
+  text-align: center; /* Center text in the button */
+  line-height: 30px; /* Vertically center the text */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  
+}
+
+.btn1:hover {
+  background-color: #FFBE95; /* Change background color on hover */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4); /* Increase shadow for depth on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.btn2 {
+  width: 6%;
+  height: 30px;
+  background-color: #FFBE95;
+  color: black;
+  cursor: pointer;
+  margin: auto; /* Center horizontally */
+  user-select: none;
+  border-radius: 20px; /* Circle border */
+  border: 2px solid black; /* Add a black border around the button */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for enhancement */
+  text-align: center; /* Center text in the button */
+  line-height: 30px; /* Vertically center the text */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+
+.btn2:hover {
+  background-color: #0282a1; /* Change background color on hover */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4); /* Increase shadow for depth on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Add this to your stylesheet or inline styles */
+.contact-columns {
+  display: flex;
+  gap: 20px; /* Adjust this value based on the desired space between columns */
+}
+
+.column {
+  flex: 1;
+  max-width: 50%;
+}
+
+.contact-row {
+  border-bottom: 1px solid #ddd; /* Line between rows */
+  padding-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.column-divider {
+  width: 1px;
+  background-color: #ddd; /* Color of the column divider */
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+/* Animation Styles */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    
+  }
+  to {
+    opacity: 1;
+    
+  }
+}
+
+/* Apply Animation to Popup Windows */
+.popupwindow,
+.aboutpopupwindow,
+.contactpopupwindow {
+  animation: slideDown 0.8s ease-in-out;
+}
+
+.custom-recaptcha {
+  /* Add your custom styles here */
+  width: 5000px; /* Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  /* Add any other styles you want */
+}
+
+.linklabel{
+  color: dodgerblue;
+  cursor: pointer;
+  padding-left: 65%;
+}

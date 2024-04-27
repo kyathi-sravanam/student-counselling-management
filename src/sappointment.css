@@ -1,0 +1,75 @@
+/* Container styles */
+.appointment-container {
+    background-color: #ffffff; /* Pure white background */
+    padding: 30px; /* Increased padding for a spacious feel */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+    width: 450px; /* Increased width for a more comfortable layout */
+    margin: 40px auto; /* Increased margin for a centered, spacious look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.appointment-container:hover {
+    transform: translateY(-5px); /* Lift the container slightly on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+}
+
+/* Form field styles */
+.appointment-form input,
+.appointment-form textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 12px; /* Increased padding */
+    margin-bottom: 12px; /* Increased margin */
+    border: 1px solid #d0d4da; /* Lighter grey border */
+    border-radius: 8px; /* More rounded corners */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.appointment-form input:focus,
+.appointment-form textarea:focus {
+    border-color: #006d77; /* Change border color to teal on focus */
+    box-shadow: 0 0 4px rgba(0, 109, 119, 0.2); /* Soft teal glow on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.appointment-form button {
+    width: 100%; /* Full width */
+    padding: 12px; /* Increased padding */
+    border: none; /* Remove border */
+    border-radius: 10px; /* More rounded corners */
+    background-color: #007bff;  /* Teal background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.appointment-form button:hover {
+    background-color: #0056b3; /* Darker teal on hover */
+    transform: scale(1.05); /* Slightly increase button size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Button shadow */
+}
+
+/* CSS class for booking error message */
+.error {
+    color: red; /* Bright red color */
+    animation: shake 0.5s; /* Shake animation */
+}
+
+/* Shake animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+/* CSS class for loading message */
+.loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #e74c3c; /* Bright red color */
+}

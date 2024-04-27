@@ -1,0 +1,86 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6f7ff; /* Light blue background for a refreshing look */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container Styles */
+.main-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px; /* Larger border radius for smoother corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.main-container:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+/* Header Styles */
+.appointment-header {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 32px; /* Larger font size */
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Appointment Table Styles */
+.appointment-table {
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border-radius: 12px; /* Added border radius */
+    overflow: hidden; /* Ensure smooth rounding for each corner */
+}
+
+.appointment-table th, .appointment-table td {
+    padding: 18px; /* Increased padding for spacious cells */
+    border-bottom: 1px solid #d1d1d1;
+    text-align: left;
+    line-height: 1.6;
+    background-color: #f7f9fc; /* Light grey background for the table */
+}
+
+.appointment-table th {
+    background-color: #007bff; /* Blue-green header */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.appointment-table tr:hover {
+    background-color: #e0f7ff; /* Light blue highlight on hover */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transform: scale(1.02); /* Slight scaling effect on hover */
+}
+
+/* Error and Loading Messages */
+.error-message, .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-animation {
+    animation: fadeInAnimation 0.7s ease-in-out;
+}

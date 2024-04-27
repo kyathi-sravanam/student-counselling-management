@@ -1,0 +1,120 @@
+/* Container styling */
+.addcounsellor-container {
+    width: 800px; /* Width adjusted to fit two columns */
+    max-height: 500px; /* Maximum height for scrolling */
+    border: 2px solid #e0e0e0; /* Light gray border */
+    border-radius: 12px; /* Increased border radius for softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Stronger shadow for more depth */
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    margin: 20px auto; /* Center the container with top margin */
+    overflow-y: auto; /* Enable vertical scrolling */
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Heading styling */
+.addcounsellor-heading {
+    grid-column: 1 / -1; /* Span across both columns */
+    color: #333; /* Dark gray color */
+    font-size: 26px; /* Slightly larger font size */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; /* Bottom margin */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Slight letter spacing */
+}
+
+/* Form grid layout */
+.counsellor-form-grid-layout {
+    display: grid; /* Use grid layout for form */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Gap between columns */
+    align-items: center; /* Vertically align items */
+}
+
+/* Input field styling */
+.counsellor-input-field,
+.counsellor-select-field {
+    width: 100%; /* Full width of each column */
+    height: 40px; /* Consistent height */
+    padding: 0 12px; /* Increased padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 6px; /* Increased border radius */
+    font-size: 16px; /* Normal font size */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    background-color: #f8f8f8; /* Light gray background for input fields */
+}
+
+/* Input field focus effect */
+.counsellor-input-field:focus,
+.counsellor-select-field:focus {
+    border-color: #01bcd5; /* Blue border on focus */
+    box-shadow: 0 0 6px rgba(0, 188, 213, 0.3); /* Soft shadow on focus */
+    background-color: #ffffff; /* White background on focus */
+}
+
+/* Button styling */
+.counsellor-submit-button {
+    grid-column: 1 / -1; /* Span the button across both columns */
+    width: 100%; /* Full width */
+    height: 40px;
+    background-color: #4a90e2; /* Blue button color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 6px; /* Increased border radius */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button hover effect */
+.counsellor-submit-button:hover {
+    background-color: #0194c5; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Hide scrollbar */
+.addcounsellor-container::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+}
+
+/* Left column styling */
+.addcounsellor-left-column {
+    grid-column: 1; /* Left column */
+}
+
+/* Right column styling */
+.addcounsellor-right-column {
+    grid-column: 2; /* Right column */
+}
+
+/* Back button styling */
+.counsellor-back-button {
+    background-color: #36aef4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px; /* Increased border radius */
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease;
+}
+
+/* Back button hover effect */
+.counsellor-back-button:hover {
+    background-color: #1d7cc2; /* Darker blue on hover */
+}

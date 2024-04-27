@@ -1,0 +1,107 @@
+/* Base Styles */
+.mycounsellor-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e3edf7; /* Softer light blue background */
+    color: #3a3a3a; /* Darker text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container Styles */
+.mycounsellor-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Pure white background */
+    border-radius: 16px; /* Increased border radius */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease; /* Added background-color transition */
+}
+
+.mycounsellor-container:hover {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+    transform: translateY(-6px); /* Lift the container slightly on hover */
+    background-color: #f3f9fb; /* Light blue-gray on hover */
+}
+
+/* Header Styles */
+.mycounsellor-header {
+    margin-bottom: 20px;
+    font-size: 32px; /* Larger font size */
+    font-weight: bold;
+    color: #007bff; /* Bright blue color */
+    text-align: center;
+    letter-spacing: 1px; /* Increased spacing */
+}
+
+/* Counselor Information Table Styles */
+.mycounsellor-table {
+    width: 100%;
+    border-collapse: collapse; /* Changed to collapse for clean borders */
+    margin-bottom: 25px;
+}
+
+.mycounsellor-table th, .mycounsellor-table td {
+    padding: 16px 20px; /* Increased padding */
+    border-bottom: 1px solid #060a0f; /* Light border */
+    text-align: left;
+}
+
+.mycounsellor-table th {
+    background-color: #007bff; /* Blue header background */
+    color: #ffffff; /* White text */
+    font-weight: bold;
+}
+
+.mycounsellor-table tr:hover {
+    background-color: #f1f7fc; /* Lighter blue background */
+    cursor: pointer;
+    transform: translateX(10px); /* Shift the row slightly */
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Error and Loading Messages */
+.mycounsellor-error-message, .mycounsellor-loading-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.mycounsellor-error-message {
+    color: #e74c3c; /* Red color */
+}
+
+.mycounsellor-loading-message {
+    color: #4caf50; /* Green color for loading */
+}
+
+/* Button Styles */
+.mycounsellor-button {
+    padding: 12px 24px; /* Increased padding */
+    background-color: #007bff; /* Bright blue color */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 12px; /* Increased border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mycounsellor-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.08); /* Increase button size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Button shadow */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.mycounsellor-fade-in {
+    animation: fadeIn 0.5s ease-in-out; /* Faster fade-in animation */
+}

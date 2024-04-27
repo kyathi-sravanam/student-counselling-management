@@ -1,0 +1,68 @@
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(120deg, #6dd5ed, #2193b0); /* Blue gradient background */
+    color: #fff; /* White text color */
+}
+
+/* Profile Table */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Round corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+.profile-table th,
+.profile-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-table th {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.profile-table td {
+    color: #fff;
+}
+
+.profile-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
+}
+
+.profile-table th:hover,
+.profile-table td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Fade In Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
